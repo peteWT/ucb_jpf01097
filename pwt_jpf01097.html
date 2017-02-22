@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Peter Tittmann)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Peter Tittmann</h2><p class="date">Created: 2017-02-22 Wed 11:52</p>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orga3acd73">1. Job Talk Overview</a></li>
+<li><a href="#/slide-orge06d5dc">2. Research</a></li>
+<li><a href="#/slide-orga639cb9">3. Extension</a></li>
+<li><a href="#/slide-orgc41d14f">4. Program Vision</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-orga3acd73">
+<h2 id="orga3acd73"><span class="section-number-2">1</span> Job Talk Overview</h2>
+<p>
+This is the overview
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orge06d5dc">
+<h2 id="orge06d5dc"><span class="section-number-2">2</span> Research</h2>
+<p>
+Highlight my research
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orga639cb9">
+<h2 id="orga639cb9"><span class="section-number-2">3</span> Extension</h2>
+<ul>
+<li>Discuss extension experience</li>
+<li>Discuss extension needs.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc41d14f">
+<h2 id="orgc41d14f"><span class="section-number-2">4</span> Program Vision</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
