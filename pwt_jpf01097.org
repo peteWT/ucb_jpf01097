@@ -1,8 +1,36 @@
-* Job Talk Overview
-This is the overview
+#+OPTIONS: num:nil
+#+REVEAL_EXTRA_CSS: extra.css
+#+REVEAL_SLIDE_HEADER: Peter Tittmann
+#+REVEAL_SLIDE_FOOTER: CE Specialist in Bioenrgy and Wood Products
+#+REVEAL_PLUGINS: (notes)
+
+* Candiate overview
++ Breadth of research expereince :: Experienced in a broad range of analytical methods
++ In-depth knowledge of California :: Forest, climate and energy policy
++ Track record in Cooperative Extension :: Developed Woody Biomass group extension program
+#+BEGIN_NOTES
++ Research
+  + Systems analysis
+  + Spatial analysis
+  + Operations research
+  + Forestry
++ CA Knowledge
+  + Grew up in redwood region
++ Extension
+  + Developed workshops, webinars
+  + Strong collaboration with county CE advisors and other CE Specialists
+#+END_NOTES
+
 * Research
-Highlight my research
+** Geospatial
+*** LiDAR in Forestry
+*** Operations
+** Wood science
+*** Redwood properties
+** Industrial Ecology
+*** Regional/National bioenergy planning
+*** Biomass feedstock supply
+*** Climate impacts of roundwood harvesting
+[[file:images/flow_chart.png]]
 * Extension
-+ Discuss extension experience
-+ Discuss extension needs.
 * Program Vision
