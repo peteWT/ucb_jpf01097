@@ -1,4 +1,23 @@
-#+TITLE: The role of forest products and bioenergy research and extension in California.
+#+TITLE: Forest products and bioenergy in California
+#+AUTHOR: The role for UC research and  extension
+#+DATE: Peter W. Tittmann, Ph.D.
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t timestamp:nil
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 9.0.5)
+#+LATEX_HEADER:
+#+OPTIONS: author:t date:t email:t
 #+OPTIONS: num:nil
 #+OPTIONS: toc:1
 #+REVEAL_EXTRA_CSS: extra.css
@@ -6,16 +25,20 @@
 #+REVEAL_SLIDE_FOOTER: CE Specialist in Bioenrgy and Wood Products
 #+REVEAL_PLUGINS: (notes)
 
+
 * Candidate overview
 + Breadth of research expereince :: Experienced in a broad range of analytical methods
 + In-depth knowledge of California :: Forest, climate and energy policy
 + Track record in Cooperative Extension :: Developed Woody Biomass group extension program
 #+BEGIN_NOTES
+*Keep it short*
 + Research
-  + Systems analysis
-  + Spatial analysis
-  + Operations research
-  + Forestry
+  + PostDoc at UC Davis Energy Institute
+  + Academic coordinator UC Forest Products extension program
+    + Systems analysis
+    + Spatial analysis
+    + Operations research
+    + Forestry
 + CA Knowledge
   + Grew up in redwood region
 + Extension
@@ -25,11 +48,12 @@
 
 * A Timely Challenge
 ** Accelerating pace of ecological change
-#+ATTR_HTML: :width 80%
-[[file:images/co2_800k.png]] 
+#+ATTR_HTML: :width 80% :height 80%
+[[file:images/co2_800k.png]]
+ 
 ** California's unique climate
 #+ATTR_HTML: :height 75%
-file:images/dettinger.png]]
+[[./images/dettinger.png]]
 ** Bark Beetle
 [[./images/ca_deadtrees.jpeg]]
 ** Sudden Oak Death
@@ -38,20 +62,21 @@ file:images/dettinger.png]]
 [[file:images/gsob.jpg]]
 ** Declining wood utilization infrastructure
 [[./images/biomass_flows.png]]
-** Underdeveloped forest products industry
-#+ATTR_HTML: :width 100%
-| State | Rough lumber (%) | Surfaced lumber (%) |
-|-------+------------------+---------------------|
-| CA    |           **34** |                  65 |
-| ID    |                3 |                  97 |
-| MT    |                4 |                  96 |
-| OR    |                5 |                  95 |
-| WA    |                4 |                  96 |
+** California forest products industry
+ #+ATTR_HTML: :width 100%
+ | State | Rough lumber (%) | Surfaced lumber (%) |
+ |-------+------------------+---------------------|
+ | CA    |           **34** |                  65 |
+ | ID    |                3 |                  97 |
+ | MT    |                4 |                  96 |
+ | OR    |                5 |                  95 |
+ | WA    |                4 |                  96 |
 
-#+REVEAL_HTML: <font size="2">Source: 1. Western Wood Products Association. 2013 Statistical Yearbook of the Western Wood Products Association. Portland: Western Wood Products Association, 2013.</font>
-#+BEGIN_NOTES
-Other notes on forest products industry
-#+END_NOTES
+ #+REVEAL_HTML: <font size="2">Source: 1. Western Wood Products Association. 2013 Statistical Yearbook of the Western Wood Products Association. Portland: Western Wood Products Association, 2013.</font>
+ #+BEGIN_NOTES
+*TODO* Add cols for gross output
++ Emphasize that CA industry focuses primarily on commodity lumber markets, little value added processing
+ #+END_NOTES
 ** Projected demand for biofuel 
 [[./images/rin_demand.png]]
 #+BEGIN_NOTES
@@ -68,8 +93,10 @@ SSSSSSSS = Start of RIN block
 EEEEEEEE = End of RIN block
 #+END_NOTES
 
-* Forest Products and Bioenergy: A Strategic Vision
-
+** Carbon intensity of biofuels
+<graphic>
+** Decline in biomass power in CA Renewables Portfolio Standard
+<calag graphic>
 
 * Research
 + Geospatial
@@ -124,18 +151,17 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
 *** Spatial Clustering
 [[./images/jose_clusters.png]]
 ** Redwood Properties: NZ vs CA
-*Primary Investigator:* John Shelly
-
-+ Calculate Modulue of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California
+#+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
+#+ATTR_HTML: :height 100%
 [[./images/baldwin.png]]
 
 
 ** Impact of torrefaction on biomass supply chains
 + Multi-modal transportation network model
 + Techno-economic model of torrefaction at 4 scales
-+ Mixed integer-linear optimization of location and scale \\
++ Mixed integer-linear optimization of location and scale 
 
-#+REVEAL_HTML: <font size="2">Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</font>
+#+REVEAL_HTML: <br><font size="2">Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</font>
 
 *** Impact of torrefaction on feedstock supply
 [[./images/tor_supply.png]]
@@ -188,6 +214,11 @@ A few examples..
 [[http://ahb-dst.org/#map][AHB Decision Support Tool]]
 
 
+* Forest Products and Bioenergy Extension: A Strategic Vision
+foobas  
+** Forest Products
+#+ATTR_HTML: :width 70%
+[[./images/forestproducts.png]]
 * Notes
 Treats:
 Lack of external awareness of UC ANR
@@ -204,4 +235,13 @@ quality
 "The general disciplinary focus of this position is the sustainable use of forest and wood resources."
 
 "The general disciplinary focus of this position is the sustainable use of forest and wood resources. Priority issues include life-cycle assessments and carbon cycles of forest products including wood-based bioenergy, efficiency and conservation in forest products and bioenergy technology, and the impacts of utilization on community development, economic, and environmental concerns. The CE Specialist in Forest Products and Biomass will develop and promote methods for efficient and environmentally acceptable utilization of wood resources and woody biomass and analyze the impacts of forest management practices and utilization on the ability of the state to meet its greenhouse gas emission goals. "
-* Program Vision
+
+** John notes:
+
++ Take credit, explain role
++ Dont run long shoot for 40 minutes
++ Talk about forest products
+  + List forest products
++ Life cycle analysis
+  + Importance of forest products in climate policy
++ Results slide for Redwood
