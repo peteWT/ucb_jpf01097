@@ -52,7 +52,7 @@
 [[file:images/co2_800k.png]]
  
 ** California's unique climate
-#+ATTR_HTML: :height 75%
+#+ATTR_HTML: :height 50%
 [[./images/dettinger.png]]
 ** Bark Beetle
 [[./images/ca_deadtrees.jpeg]]
@@ -98,6 +98,7 @@ EEEEEEEE = End of RIN block
 ** Decline in biomass power in CA Renewables Portfolio Standard
 <calag graphic>
 
+[[./images/solar_bio.jpg]]
 * Research
 + Geospatial
   + LiDAR in Forestry
@@ -138,34 +139,40 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
 [[./images/lidar_results.png]]
 
 ** Big Geospatial: Utilization of Biomass from tree mortality
-*Collaborators:* Carmen Tubbessing (Ph.D. Candidate ESPM), Jose Lara (Ph.D. Candidate Energy and Resources)\\
-*Funded by:* California Energy Commission
+#+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbessing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Candidate Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
 
 + Translate Aerial Detection Survey mortality to biomass volume
 + Model harvest and transport costs
-+ Evaluate substation-level distribution capacity for small scale (>3MW) biomass power.
-
++ Evaluate substation-level distribution capacity for small scale (<3MW) biomass power.
+#+BEGIN_NOTES
+*Role*
++ Assisted in writing proposal with APL and RAEL
++ Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
++ Assisted with methodolgy development and analysis
+#+END_NOTES
 *** Mapping Mortality
-[[./images/carmen_map.png]]
+#+ATTR_HTML: :height 40%
+[[./images/carmen_map.jpg]]
 
 *** Spatial Clustering
 [[./images/jose_clusters.png]]
 ** Redwood Properties: NZ vs CA
 #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
-#+ATTR_HTML: :height 100%
+#+ATTR_HTML: :height 75%
 [[./images/baldwin.png]]
 
 
 ** Impact of torrefaction on biomass supply chains
 + Multi-modal transportation network model
-+ Techno-economic model of torrefaction at 4 scales
++ Techno-economic model of torrefaction at 5 scales
 + Mixed integer-linear optimization of location and scale 
 
-#+REVEAL_HTML: <br><font size="2">Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</font>
+#+REVEAL_HTML: <br><p><small>Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</small></p>
 
 *** Impact of torrefaction on feedstock supply
-[[./images/tor_supply.png]]
+    [[./images/tor_supply.png]]
 *** Spatial dynamics of torrefaction pre-treatment
+#+ATTR_HTML: :height 20%
 [[./images/tor_map.png]]
 
 * Extension
