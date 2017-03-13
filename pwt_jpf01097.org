@@ -17,7 +17,7 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 9.0.5)
 #+LATEX_HEADER:
-#+OPTIONS: author:t date:t email:t
+#+OPTIONS: author:t date:t email:nil
 #+OPTIONS: num:nil
 #+OPTIONS: toc:1
 #+REVEAL_EXTRA_CSS: extra.css
@@ -99,10 +99,9 @@ EEEEEEEE = End of RIN block
 ** Carbon intensity of biofuels
 <graphic>
 ** Decline in biomass power in CA Renewables Portfolio Standard
-<calag graphic>
-
+#+ATTR_HTML: :height 70%
 [[./images/solar_bio.jpg]]
-* Research Themes
+* Past Research Themes
 + Geospatial
   + LiDAR in Forestry
   + Big spatial data
@@ -335,13 +334,14 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
  #+ATTR_HTML: :height 80%
  [[./images/ann_hh_em_reduc.png]]
 
-* Extension
+* Extension Experience
 + *Technology Transfer*
   + Web/mobile decision support applications.
   + Direct technical assistance
 + *Public Education and Outreach*
-  + Social media presence
+  + Targeted industry outreach
   + Public workshops and conferences
+  + Extension publications
 + *Policy Engagement*
   + Synthesis and and interpretation of research findings for policy initiatives
 
@@ -380,20 +380,90 @@ A few examples..
 #+END_NOTES
 [[http://ahb-dst.org/#map][AHB Decision Support Tool]]
 
+*** Project Technical Assistance
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+*Camptonville Community Partnership*
+#+REVEAL_HTML:<hr><small>
++ 3 MW combined heat and power
++ Assisted with successful grant proposal assistance
++ Assisted with technology due diligence
+#+ATTR_HTML: :height 30%
+[[./images/ccp_logo.gif]]
 
-** Public Eduction and Outreach
+#+REVEAL_HTML: </small></div>
 
-*** Biomass power and foret products industry
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+*IHI Power: Rio Bravo Rocklin*
+#+REVEAL_HTML:<hr><small>
++ 25 MW Biomass Power plant
++ Proposal to compare urban and forest feedstock impact on O&M costs
+[[./images/plant_rocklin.jpg]]
+#+REVEAL_HTML: </small></div>
 
+*** Statewide Assistance
 
-* Forest Products and Bioenergy Extension: A Strategic Vision
-foobas  
-** Forest Products
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+*Statewide Wood Energy Team*
+#+REVEAL_HTML:<hr><small>
++ Assisted writing successful proposal to establish wood energy team in California
++ Reviewed applications for pre-feasibility grants
++ Provided technical assistance to grantees
+#+ATTR_HTML: :width 10%
+[[./images/swet_web.png]]
+#+REVEAL_HTML: </small></div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+*California wood business opportunities analysis*
+#+REVEAL_HTML:<hr><small>
++ Steering committee member
++ USFS R5 -- Funded Project
+[[./images/cabiowm.png]]
+#+REVEAL_HTML: </small></div>
+
+*** California Biomass Working Group
++ Sub-committee Chair (2015) Policy and Existing Infrastructure
++ Worked closely with utilities and power producers
+** Public Education and Outreach
+
+*** Biomass power and forest products industry
+
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+#+ATTR_HTML: :width 100%
+[[./images/calforest_nursery.jpg]]
+
+#+REVEAL_HTML: </small></div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+#+ATTR_HTML: :width 100%
+[[./images/yreka_veneer.jpg]]
+#+REVEAL_HTML: </small></div>
+
+* Forest Products and Bioenergy Research and Extension: A Strategic Vision
 #+ATTR_HTML: :width 70%
 [[./images/forestproducts.png]]
+
+** Treats to the UCANR Mission
++ Void in science-based knowledge filled by ideologically driven groups
++ "Cottage" extension programs
++ Speed of information flow
++ Deficit in scientific knowledge in general public.
+
+** Strategies 
+*** Applied Research
+   + Carbon Cycle of Wood Products
+   + Efficiency and conservation in the forest products sector
+   + Innovation in wood products and product supply chains
+*** Extension
+   + Work to increase broad public awareness of the role of wood and forests in meeting emissions reduction targets while meeting the material demands of the world’s sixth-largest economy
+   + providing technical tools, domain expertise, and applied research to the CE client base.
+*** Outreach and education
+   + Engage immigrant and non-white community client base in the forestry sector through bilingual publication and workshop materials
+   + Engage advocacy community where there is common ground.
+   + Grow interest in California wood and forest products in urban communities through outreach to design community.
+
 * Notes
 Treats:
-Lack of external awareness of UC ANR
+ Lack of external awareness of UC ANR
 • Other agencies filling void without sciencebased
 knowledge
 • Cost of living and labor in California
