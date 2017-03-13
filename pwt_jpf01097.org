@@ -62,6 +62,9 @@
 [[file:images/gsob.jpg]]
 ** Declining wood utilization infrastructure
 [[./images/biomass_flows.png]]
+#+BEGIN_NOTES
+Mills have declined from close to 250 in 1970 to less than 50.
+#+END_NOTES
 ** California forest products industry
  #+ATTR_HTML: :width 100%
  | State | Rough lumber (%) | Surfaced lumber (%) |
@@ -99,7 +102,7 @@ EEEEEEEE = End of RIN block
 <calag graphic>
 
 [[./images/solar_bio.jpg]]
-* Research
+* Research Themes
 + Geospatial
   + LiDAR in Forestry
   + Big spatial data
@@ -109,15 +112,30 @@ EEEEEEEE = End of RIN block
   + Regional/National bioenergy planning
   + Biomass feedstock supply
   + Climate impacts of roundwood harvesting
-  + Life-cycle analysis of forest managemet decisions
+  + Life-cycle analysis of forest management decisions
 
-** LiDAR as a tool for Forest Management
-+ Individual tree detection and delineation
-+ Geometric shape-fitting
-+ RAndom Sample and Consensus (RANSAC)
+** Geospatial analytics
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+*Remote Sensing*
++ LiDAR
+  + Timber/carbon inventory
++ Hyperspectral imagery
+  + Fire intensity
+#+REVEAL_HTML: </div>
 
-#+REVEAL_HTML: <font size="2">1. Tittmann P, Shafii S, Hartsough B, Hamman B. Tree detection, delineation, and measurement from LiDAR point clouds using RANSAC. In: Hirata Y et al., editor. Proceedings of Eleventh International Conference on LiDAR Applications for Assessing Forest Ecosystems (SilviLaser 2011) [Internet]. Hobart; 2011.</font>
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+*Spatial Analysis*
++ Spatial clustering
++ Network analysis
++ Big geospatial data
+ 
+#+REVEAL_HTML: </div>
+*** LiDAR as a tool for Forest Management
+ + Individual tree detection and delineation
+ + Geometric shape-fitting
+ + RAndom Sample and Consensus (RANSAC)
 
+ #+REVEAL_HTML: <br><p><small>1. Tittmann P, Shafii S, Hartsough B, Hamman B. Tree detection, delineation, and measurement from LiDAR point clouds using RANSAC. In: Hirata Y et al., editor. Proceedings of Eleventh International Conference on LiDAR Applications for Assessing Forest Ecosystems (SilviLaser 2011) [Internet]. Hobart; 2011.</p></small>
 
 *** RANSAC
 [[./images/ransac.gif]]
@@ -130,50 +148,192 @@ EEEEEEEE = End of RIN block
 #+END_NOTES
 
 *** 3d model
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
 $f(x,y) = -\lambda (x^2 + y^2) + (\lambda -1)\sqrt{x^2+y^2}$
 
 $\lambda$ = Shift parameter between conic and parabolic shapes
+#+REVEAL_HTML: </div>
 
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+#+ATTR_HTML: :width 50% :height 50%
+#+REVEAL_HTML: <br><br>
 [[./images/convex.png]]
 *** RanSAC Model results
 [[./images/lidar_results.png]]
 
-** Big Geospatial: Utilization of Biomass from tree mortality
-#+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbessing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Candidate Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
-
-+ Translate Aerial Detection Survey mortality to biomass volume
-+ Model harvest and transport costs
-+ Evaluate substation-level distribution capacity for small scale (<3MW) biomass power.
+*** Mapping wildfire loss in commercial timberland
+#+ATTR_HTML: :width 40%
+[[./images/westport.jpg]]
 #+BEGIN_NOTES
-*Role*
-+ Assisted in writing proposal with APL and RAEL
-+ Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
-+ Assisted with methodolgy development and analysis
++ Difference in normalized burn intensity
++ Mendocino complex 2008
 #+END_NOTES
+*** Big Geospatial Data
+<Foo>
+*** Utilization of Biomass from tree mortality
+ #+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbesing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Candidate Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
+ + Translate Aerial Detection Survey mortality to biomass volume @30m statewide
+ + Model harvest and transport costs
+ + Evaluate substation-level distribution capacity for small scale (<3MW) biomass power.
+ #+BEGIN_NOTES
+ *Role*
+ + Assisted in writing proposal with APL and RAEL
+ + Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
+ + Assisted with methodolgy development and analysis
+ #+END_NOTES
 *** Mapping Mortality
-#+ATTR_HTML: :height 40%
-[[./images/carmen_map.jpg]]
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ #+ATTR_HTML: :height 40%
+ [[./images/carmen_map.jpg]]
+
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ #+ATTR_HTML: :height 40%
+ [[./images/statewide_BM.jpg]] 
+
+#+REVEAL_HTML: </div>
 
 *** Spatial Clustering
-[[./images/jose_clusters.png]]
-** Redwood Properties: NZ vs CA
-#+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
-#+ATTR_HTML: :height 75%
-[[./images/baldwin.png]]
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+[[./images/figures/conceptual_1.png]]
+#+REVEAL_HTML: </div>
 
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[./images/figures/map2.png]]
+ 
+#+REVEAL_HTML: </div>
 
-** Impact of torrefaction on biomass supply chains
-+ Multi-modal transportation network model
-+ Techno-economic model of torrefaction at 5 scales
-+ Mixed integer-linear optimization of location and scale 
+*** Modeling harvest operations cost
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+*Yarding distance*
+#+REVEAL_HTML:<br>
+#+ATTR_HTML: :width = 100%
+[[./images/figures/dist_sum.png]]
+#+REVEAL_HTML: </div>
 
-#+REVEAL_HTML: <br><p><small>Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</small></p>
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+*Slope*
+#+REVEAL_HTML: <br>
+#+ATTR_HTML: :width = 100%
+[[./images/figures/slope_sum.png]]
+ 
+#+REVEAL_HTML: </div>
+
+*** Cluster-level supply curve
+#+ATTR_HTML: :width = 100%
+[[./images/figures/supply_cluster.png]]
+** Wood Properites
+
+*** Redwood Properties: NZ vs CA
+ #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
+ #+ATTR_HTML: :height 75%
+ [[./images/baldwin.png]]
+
+** Industrial Ecology of wood bioenergy systems
++ Techoeconomic systems analysis
++ Spatial operations research
++ Life-cycle analysis
+*** Emissions from forests: A conceptual model
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+#+REVEAL_HTML: <p><small>Tittmann, P., & Yeh, S. (2013). A Framework for Assessing the Lifecycle Greenhouse Gas Benefits of Forest Bioenergy and Biofuel in an Era of Forest Carbon Management. Journal of Sustainable Forestry, 32(1–2), 108–129</p></small>
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+#+ATTR_HTML: :width 95%
+[[./images/risk_matrix.png]] 
+#+REVEAL_HTML: </div>
+*** Stand carbon flows
+#+ATTR_HTML: :width 95%
+[[./images/forest_system.png]] 
+*** Forests product syetsm
+#+ATTR_HTML: :width 95%
+[[./images/product_lca.png]] 
+
+*** Impact of torrefaction on biomass supply chains
+ + Multi-modal transportation network model
+ + Techno-economic model of torrefaction at 5 scales
+ + Mixed integer-linear optimization of location and scale 
+
+ #+REVEAL_HTML: <br><p><small>Li Y, Tittmann P, Parker N, Jenkins B. Economic impact of combined torrefaction and pelletization processes on forestry biomass supply. GCB Bioenergy [Internet]. 2016 Jul [cited 2016 Aug 11]; Available from: http://doi.wiley.com/10.1111/gcbb.12375</small></p>
 
 *** Impact of torrefaction on feedstock supply
     [[./images/tor_supply.png]]
 *** Spatial dynamics of torrefaction pre-treatment
-#+ATTR_HTML: :height 20%
+#+ATTR_HTML: :width 50% :height 50%
 [[./images/tor_map.png]]
+*** Mapping biomass supply
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ #+REVEAL_HTML: <br><p><small>Jenkins, B. M., Williams, R., Parker, N., Tittmann, P., Hart, Q., Gildart, M., Dempster, P. (2009). Sustainable use of California biomass resources can help meet state and national bioenergy targets. California Agriculture, 63(4), 168–177. </p></small>
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ #+ATTR_HTML: :width 80%
+ [[./images/biomass_map.jpg]]
+ 
+ #+REVEAL_HTML: </div>
+
+*** Spatail/Technoeconomic Bioenergy Modeling
+ #+ATTR_HTML: :width 100%
+ [[./images/modeling_overview.png]]
+*** Western US
+#+ATTR_HTML: :width 80%
+[[./images/wga_results_forslide.png]]
+*** California
+#+ATTR_HTML: :width 80%
+[[./images/ca_wga_mapsupply.png]]
+*** Biofuel vs. biopower in CA
+#+ATTR_HTML: :height 75%
+[[./images/fuel_competition.png]]
+
+*** Climate impacts of roundwood harvesting
+  #+REVEAL_HTML: <div class="column" style="float:left; width: 40%">
+  #+REVEAL_HTML: <p><small>
+  *Research Goals*
+  + Estimate Short-Lived Climate Pollutant emissions from pile burning
+  + Estimate GHG emiddions from roundwood harvest in California *inclusive of* displacement of alternative building materials. 
+  #+REVEAL_HTML: </p></small></div>
+
+  #+REVEAL_HTML: <div class="column" style="float:right; width: 60%">
+   #+ATTR_HTML: :width 100%
+  [[./images/wood_fates_rs.png]]
+  #+REVEAL_HTML: </div>
+  #+BEGIN_NOTES
+  + Wildfire is the single largest source of SLCP GWP emissions
+  + CARB SLCP Strategy
+  + Provides a meaningfull basis from whihc to compare lifecycle emssions from biomass power generation using logging residuals to alternative fates
+  #+END_NOTES
+
+*** Analysis Framework
+  #+ATTR_HTML: :width 90%
+ [[./images/flow_chart.png]]
+
+*** Key Findings
+
+ + Different estimates of SLCP emissions from different sources (CARB vs. BOE)
+ + Roundwood harvest likely results in a *net emissions reduction* compared to no harvest assuming sustained yield forestry and no land conversion.
+ + Critical need for imporved data and monitoring:
+   + Emissions :: Black and brown carbon emissions from pile, prescribed and wildfire
+   + Displacement :: Need better understanding of wood and energy use in residential/commecial construction specific to California.
+
+*** Different estimates
+ Divergence between BOE and CARB based estimates
++ Air Resources Board :: Criteria Pollutant Emissions Inventory
+  + *2.5 MMT CO2e*
++ Board of Equalization :: Historical harvest data from timber tax records
+  + *0.57 MMTCO2e*
+#+BEGIN_NOTES
++ CARB estimate includes emissions from pile burning not associated with commercial timber harvest
+#+END_NOTES
+*** Emissions reduction
+ - Wood harvested in California in 2012 resulted in avoided emissions of
+   *2.29 MMTCO2e*
+
+ - Timber harvest producing roundwood including emissions from pile burning of logging residuals results in a net emissions reduction of *1.93 MMTCO2e*
+
+*** Historical emissions reductions from harvest
+ #+ATTR_HTML: :height 80%
+ [[./images/ann_hh_em_reduc.png]]
 
 * Extension
 + *Technology Transfer*
@@ -219,6 +379,11 @@ A few examples..
 + Select geometry
 #+END_NOTES
 [[http://ahb-dst.org/#map][AHB Decision Support Tool]]
+
+
+** Public Eduction and Outreach
+
+*** Biomass power and foret products industry
 
 
 * Forest Products and Bioenergy Extension: A Strategic Vision
