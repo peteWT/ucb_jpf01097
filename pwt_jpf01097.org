@@ -21,30 +21,9 @@
 #+OPTIONS: num:nil
 #+OPTIONS: toc:1
 #+REVEAL_EXTRA_CSS: extra.css
-#+REVEAL_SLIDE_HEADER: Peter Tittmann
-#+REVEAL_SLIDE_FOOTER: CE Specialist in Bioenrgy and Wood Products
+##+REVEAL_SLIDE_HEADER: Peter Tittmann
+##+REVEAL_SLIDE_FOOTER: CE Specialist in Bioenrgy and Wood Products
 #+REVEAL_PLUGINS: (notes)
-
-
-* Candidate overview
-+ Breadth of research expereince :: Experienced in a broad range of analytical methods
-+ In-depth knowledge of California :: Forest, climate and energy policy
-+ Track record in Cooperative Extension :: Developed Woody Biomass group extension program
-#+BEGIN_NOTES
-*Keep it short*
-+ Research
-  + PostDoc at UC Davis Energy Institute
-  + Academic coordinator UC Forest Products extension program
-    + Systems analysis
-    + Spatial analysis
-    + Operations research
-    + Forestry
-+ CA Knowledge
-  + Grew up in redwood region
-+ Extension
-  + Developed workshops, webinars
-  + Strong collaboration with county CE advisors and other CE Specialists
-#+END_NOTES
 
 * A Timely Challenge
 ** Accelerating pace of ecological change
@@ -101,6 +80,42 @@ EEEEEEEE = End of RIN block
 ** Decline in biomass power in CA Renewables Portfolio Standard
 #+ATTR_HTML: :height 70%
 [[./images/solar_bio.jpg]]
+* Candidate overview
++ Breadth of research expereince :: Experienced in a broad range of analytical methods
++ In-depth knowledge of California :: Forest, climate and energy policy
++ Track record in Cooperative Extension :: Developed Woody Biomass group extension program
+#+BEGIN_NOTES
+*Keep it short*
++ Research
+  + PostDoc at UC Davis Energy Institute
+  + Academic coordinator UC Forest Products extension program
+    + Systems analysis
+    + Spatial analysis
+    + Operations research
+    + Forestry
++ CA Knowledge
+  + Grew up in redwood region
++ Extension
+  + Developed workshops, webinars
+  + Strong collaboration with county CE advisors and other CE Specialists
+#+END_NOTES
+
+** Current roles
+** Senior Analyst @ New Forests
+
++ Rapid assessments of carbon offset value
++ Due diligence on property acquisitions
++ Growth and yield modeling
++ Financial model development
+
+** Academic Coordinator @ UC Biomass Utilization Group
++ Biomass infrastructure map
++ Life-cycle analysis of roundwood harvest
+
+** PostDoc @ UC Davis Energy Institute
++ Bioenergy systems modeling
++ Hybrid poplar growth modeling
+
 * Past Research Themes
 + Geospatial
   + LiDAR in Forestry
@@ -335,6 +350,7 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
  [[./images/ann_hh_em_reduc.png]]
 
 * Extension Experience
+#+BEGIN_NOTES
 + *Technology Transfer*
   + Web/mobile decision support applications.
   + Direct technical assistance
@@ -344,6 +360,7 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
   + Extension publications
 + *Policy Engagement*
   + Synthesis and and interpretation of research findings for policy initiatives
+#+END_NOTES
 
 ** Technology transfer
 A few examples..
@@ -420,10 +437,25 @@ A few examples..
 [[./images/cabiowm.png]]
 #+REVEAL_HTML: </small></div>
 
-*** California Biomass Working Group
-+ Sub-committee Chair (2015) Policy and Existing Infrastructure
-+ Worked closely with utilities and power producers
+*** Policy and statewide initiatives
++ California Biomass Working Group
++ Close collaboration with county advisers on legislation
++ Reviewed proposals for investment of cap and trade revenue for CA Governors Office
 ** Public Education and Outreach
+
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%"><small>
++ Organized workshop series three locations across the state
++ 10-20 invited presentations annually
++ Hazardous fuels treatment demonstrations
+#+REVEAL_HTML: </small></div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+#+ATTR_HTML: :width 80%
+[[./images/hfrd.jpg]]
+#+REVEAL_HTML:<br>
+#+ATTR_HTML: :width 80%
+[[./images/hfrd_map.jpg]]
+#+REVEAL_HTML: </div>
 
 *** Biomass power and forest products industry
 
