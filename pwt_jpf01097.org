@@ -238,11 +238,15 @@ $\lambda$ = Shift parameter between conic and parabolic shapes
 #+ATTR_HTML: :width = 100%
 [[./images/figures/supply_cluster.png]]
 ** Wood Properites
-
 *** Redwood Properties: NZ vs CA
  #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
- #+ATTR_HTML: :height 75%
+ #+ATTR_HTML: :height 500
  [[./images/baldwin.png]]
+#+BEGIN_NOTES
++ Redwood quality issues with rotation age
++ Expansion of production in New Zealand
+#+END_NOTES
+
 
 ** Industrial Ecology of wood bioenergy systems
 + Techoeconomic systems analysis

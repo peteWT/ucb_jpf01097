@@ -1,0 +1,203 @@
+#+TITLE: Forest products and bioenergy in California
+#+AUTHOR: The role for UC research and  extension
+#+DATE: Peter W. Tittmann, Ph.D.
+#+OPTIONS: author:t date:t email:nil
+#+OPTIONS: num:nil
+#+OPTIONS: toc:1
+#+REVEAL_EXTRA_CSS: extra.css
+#+REVEAL_PLUGINS: (notes)
+* A little about me
+[[./images/salmoncreek.jpg]]
+#+BEGIN_NOTES
+*Keep it short*
++ CA Knowledge
+  + Grew up in redwood region timber wars
+  + Family construction business
+  + Wood is in my blood..
+#+END_NOTES
+
+** Senior Analyst @ New Forests (2015--present)
+
++ Rapid assessments of carbon offset and timber value
++ Due diligence on property acquisitions
++ Growth and yield modeling
++ Financial model development
+
+** Academic Coordinator @ UC Biomass Utilization Group (2013-present)
++ Biomass infrastructure map
++ Life-cycle analysis of roundwood harvest
+
+** PostDoc @ UC Davis Energy Institute (2011-2013)
++ Bioenergy systems modeling
++ Hybrid poplar growth modeling
+
+* Forest Products in California: Key issues
++ Efficiency and innovation 
++ Renewable energy
++ Carbon cycle of wood products
++ Public education
+#+BEGIN_NOTES
+1. increasing value, efficiency, innovation and employment
+2. fuels, electricity
+3. Life-cycle analysis, displacement/substitution
+4. Communicating nuance in the public dialog around forests and forest management
+#+END_NOTES
+* Efficiency and innovation
++ Infrastructure
++ Products
++ Supply chains
++ Livelihood
+#+BEGIN_NOTES
++ Valuing legacy
++ Strategic investment in new directions
+#+END_NOTES
+** Infrastructure
+*** Utilization of biomass from tree mortality
+ #+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbesing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Candidate Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
+ + Translate Aerial Detection Survey mortality to biomass volume @30m statewide
+ + Model harvest and transport costs
+ + Evaluate substation-level distribution capacity for small scale (<3MW) biomass power.
+ #+BEGIN_NOTES
+ *Role*
+ + Assisted in writing proposal with All-Power Labs and UCB-RAEL
+ + Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
+ + Assisted with methodology development and analysis
+*Motivating questions*
++ Can distributed generation address the challenges of wood biomass bulk density
++ How does grid capacity and interconnection interplay with feedstock costs and supply
+ #+END_NOTES
+*** Mapping Mortality
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  #+ATTR_HTML: :height 40%
+  [[./images/carmen_map.jpg]]
+
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  #+ATTR_HTML: :height 40%
+  [[./images/statewide_BM.jpg]] 
+
+ #+REVEAL_HTML: </div>
+
+*** Spatial Clustering
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ [[./images/figures/conceptual_1.png]]
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ [[./images/figures/map2.png]]
+ 
+ #+REVEAL_HTML: </div>
+
+*** Modeling harvest operations cost
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ *Yarding distance*
+ #+REVEAL_HTML:<br>
+ #+ATTR_HTML: :width = 100%
+ [[./images/figures/dist_sum.png]]
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ *Slope*
+ #+REVEAL_HTML: <br>
+ #+ATTR_HTML: :width = 100%
+ [[./images/figures/slope_sum.png]]
+ 
+ #+REVEAL_HTML: </div>
+
+*** Cluster-level supply curve
+ #+ATTR_HTML: :width = 100%
+ [[./images/figures/supply_cluster.png]]
+*** Biomass and forest products infrastructure database
+#+REVEAL_HTML:<iframe src="http://woodresourcesgroup.github.io/BiomassMap/Public.html" scrolling="yes" width="100%" height="775" frameborder="0"></iframe>
+** Products
+*** Redwood Properties: NZ vs CA
+ #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
+ #+ATTR_HTML: :height 500
+ [[./images/baldwin.png]]
+#+BEGIN_NOTES
++ Redwood quality issues with rotation age
++ Expansion of production in New Zealand
+#+END_NOTES
+
+*** Redwood Results
++ No significant differences between NZ and CA
++ Regional differences suggest local variables drive wood property differences
+#+BEGIN_NOTES
+*Findings*
++ No significant differences between NZ and CA
++ Regional differences
+
+*Next Steps*
++ Combine high spatial resolution soil, climate, and stand density data with wood properties data to mine predictors of wood properties
++ Work with NZ researchers to evaluate potential to rapidly evaluate redwood properties using reflectance properties or automated detection of micro-structural properties from imagery  
+#+END_NOTES
+
+*** California forest products industry
+  #+ATTR_HTML: :width 100%
+  | State | Rough lumber (%) | Surfaced lumber (%) | Total Output (MMBF) | Percent of Region |
+  |-------+------------------+---------------------+---------------------+-------------------|
+  | CA    |           **34** |                  65 |                1.93 |                   |
+  | ID    |                3 |                  97 |                1.65 |                   |
+  | MT    |                4 |                  96 |                0.56 |                   |
+  | OR    |                5 |                  95 |                5.12 |                   |
+  | WA    |                4 |                  96 |                3.94 |                   |
+
+  #+REVEAL_HTML: <font size="2">Source: 1. Western Wood Products Association. 2013 Statistical Yearbook of the Western Wood Products Association. Portland: Western Wood Products Association, 2013.</font>
+  #+BEGIN_NOTES
+ *TODO* Add cols for gross output
+ + Emphasize that CA industry focuses primarily on commodity lumber markets, little value added processing
+  #+END_NOTES
+* Renewable Energy
++ Fuels
++ Biomass power
++ Heating and cooling
+
+* Carbon Cycle of Wood Products 
++ Integrated industrial/forest ecology
++ Lack of data
++ Need for science based leadership
+
+* Public Education
++ Raising public awareness/interest in forests as places of *both* recreation/wilderness *and* livelihood, material production
+
+** Smurfs ?!
+
+* Research questions
+1. What forest product utilization strategies minimize climate pollution and public health impacts?
+2. What strategies align with the range of public values for forests?
+3. What innovations in the forest product sector improve our ability to efficiently and sustainably manage forests?
+4. What are effective strategies for public education around sustainable forest products?
+
+
+#+BEGIN_NOTES
+1. What forest product utilization strategies minimize climate pollution and public health impacts?
+   - Capture and store carbon from mortality events? (Bio-char)
+   - Displacement and substitution of products? (Energy, fuels, products)
+   - More trees -- less products? (Carbon offsets, investment in fire suppression)
+   - What strategies align with the range of public values in forests?
+
+2. Can innovation in the forest product sector improve our ability to efficiently and sustainably?
+   - Does the benefit of investing in maintenance of un-utilized capacity in the forest products sector return meaningful climate benefits?
+   - opportunties to expand the applications for sustainably harvested wood products?
+     - prefabricated buildings
+     - modular construction
+
+3. What are effective strategies for public education around sustainable forest products?
+   - 
+#+END_NOTES
+
+
+
+* Extension Priorities
+
+1. Develop a robust applied research platform with strong collaboration between UC, CA and non-CA groups in collaboration with county Advisers
+2. Engage actively in public discourse relevant to forest products, climate change, and forest sustainability
+   - Social media
+   - Workshops/fora
+   - Policy initiatives
+   - Provide comment on agency initiatives
+3. Provide technical assistance to forest products and bioenergy sector
+   - Close collaboration with county advisors
+   - Align research with barrier issues identified through outreach
+   - Provide review and guidance on proposal
