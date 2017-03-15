@@ -43,158 +43,188 @@
 3. Life-cycle analysis, displacement/substitution
 4. Communicating nuance in the public dialog around forests and forest management
 #+END_NOTES
-* Efficiency and innovation
-#+ATTR_REVEAL: :frag (appear)
-+ Infrastructure
-+ Products
-+ Supply chains
-+ Livelihood
-#+BEGIN_NOTES
-+ Critical to economies of scale
-+ Forest health at scale
-+ Infrastructure investment in the state has focused primarily on commodity lumber markets
-+ Biomass  infrastructure is old with backlog of differed maintenance
-+ Very little private capital going to 'boutique biomass'
-+ Low-carbon biofuel demand largely exported to brazil 
-#+END_NOTES
-
-
-** Utilization of biomass from tree mortality
- #+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbesing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Student Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
- + Translate Aerial Detection Survey mortality to biomass volume @30m statewide
- + Model harvest and transport costs
- + Evaluate substation-level grid capacity for small scale (<3MW) biomass power.
+** Efficiency and innovation
+ #+ATTR_REVEAL: :frag (appear)
+ + Infrastructure
+ + Products
+ + Supply chains
+ + Livelihood
  #+BEGIN_NOTES
-*Role*
- + Assisted in writing proposal with All-Power Labs and UCB-RAEL
- + Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
- + Assisted with methodology development and analysis
-*Motivating questions*
-+ Can distributed generation address the challenges of wood biomass bulk density
-+ How does grid capacity and interconnection interplay with feedstock costs and supply
-*Preliminary findings*
-+ Distributed generation is costly on a unit output basis and in terms of interconnection
-+ Investment in grid infrastructure necessary for distributed biomass generation
+ + Critical to economies of scale
+ + Forest health at scale
+ + Infrastructure investment in the state has focused primarily on commodity lumber markets
+ + Biomass  infrastructure is old with backlog of differed maintenance
+ + Very little private capital going to 'boutique biomass'
+ + Low-carbon biofuel demand largely exported to brazil 
  #+END_NOTES
-** Mapping Mortality
-#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
- #+ATTR_HTML: :height 40%
- [[./images/carmen_map.jpg]]
 
-#+REVEAL_HTML: </div>
+*** Utilization of biomass from tree mortality
+  #+REVEAL_HTML: <p><small><b>Collaborators:</b> Carmen Tubbesing (Ph.D. Candidate ESPM), Eng. Jose Lara (Ph.D. Student Energy and Resources)<br /><b>Funded by:</b> California Energy Commission</small></p>
+  + Translate Aerial Detection Survey mortality to biomass volume @30m statewide
+  + Model harvest and transport costs
+  + Evaluate substation-level grid capacity for small scale (<3MW) biomass power.
+  #+BEGIN_NOTES
+ *Role*
+  + Assisted in writing proposal with All-Power Labs and UCB-RAEL
+  + Advised graduate students (reader for Jose Lara's masters thesis -- ERG)
+  + Assisted with methodology development and analysis
+ *Motivating questions*
+ + Can distributed generation address the challenges of wood biomass bulk density
+ + How does grid capacity and interconnection interplay with feedstock costs and supply
+ *Preliminary findings*
+ + Distributed generation is costly on a unit output basis and in terms of interconnection
+ + Investment in grid infrastructure necessary for distributed biomass generation
 
-#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
- #+ATTR_HTML: :height 40%
- [[./images/statewide_BM.jpg]] 
+  #+END_NOTES
+*** Mapping Mortality
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  #+ATTR_HTML: :height 40%
+  [[./images/carmen_map.jpg]]
 
-#+REVEAL_HTML: </div>
+ #+REVEAL_HTML: </div>
 
-** Spatial Clustering
-#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
-[[./images/figures/conceptual_1.png]]
-#+REVEAL_HTML: </div>
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  #+ATTR_HTML: :height 40%
+  [[./images/statewide_BM.jpg]] 
 
-#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
-[[./images/figures/map2.png]]
+ #+REVEAL_HTML: </div>
+
+*** Spatial Clustering
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ [[./images/figures/conceptual_1.png]]
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ [[./images/figures/map2.png]]
  
-#+REVEAL_HTML: </div>
+ #+REVEAL_HTML: </div>
 
-** Modeling harvest operations cost
-#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
-*Yarding distance*
-#+REVEAL_HTML:<br>
-#+ATTR_HTML: :width = 100%
-[[./images/dist_hist.png]]
-#+REVEAL_HTML: </div>
+*** Modeling harvest operations cost
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ *Yarding distance*
+ #+REVEAL_HTML:<br>
+ #+ATTR_HTML: :width = 100%
+ [[./images/dist_hist.png]]
+ #+REVEAL_HTML: </div>
 
-#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
-*Slope*
-#+REVEAL_HTML: <br>
-#+ATTR_HTML: :width = 100%
-[[./images/slope_sum.png]]
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ *Slope*
+ #+REVEAL_HTML: <br>
+ #+ATTR_HTML: :width = 100%
+ [[./images/slope_sum.png]]
  
-#+REVEAL_HTML: </div>
+ #+REVEAL_HTML: </div>
 
-** Cluster-level supply curve
-#+ATTR_HTML: :width = 85%
-[[./images/supply_cluster.png]]
-** Biomass and forest products infrastructure database
-#+REVEAL_HTML:<iframe src="http://woodresourcesgroup.github.io/BiomassMap/Public.html" scrolling="yes" width="100%" height="775" frameborder="0"></iframe>
-** Redwood Properties: NZ vs CA
- #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
- #+ATTR_HTML: :height 500
- [[./images/baldwin.png]]
+*** Cluster-level supply curve
+ #+ATTR_HTML: :width  70%
+ [[./images/supply_cluster.png]]
+*** Infrastrucutre and Ecological Processes
+#+ATTR_HTML: :width 60% :height 60%
+[[./images/mortality_collage.jpg]]
 #+BEGIN_NOTES
-+ Redwood quality issues with rotation age
-+ Expansion of production in New Zealand
++ Infrastrucutre for stochastic processes
++ How to capture utility?
++ What are costs and benefits of scale choices?
 #+END_NOTES
 
-** Redwood Results
-+ No significant differences between NZ and CA
-+ Regional differences suggest local variables drive wood property differences
+*** Biomass and forest products infrastructure database
+ #+REVEAL_HTML:<iframe src="http://woodresourcesgroup.github.io/BiomassMap/Public.html" scrolling="yes" width="100%" height="775" frameborder="0"></iframe>
 #+BEGIN_NOTES
-*Findings*
-+ No significant differences between NZ and CA
-+ Regional differences
-
-*Next Steps*
-+ Combine high spatial resolution soil, climate, and stand density data with wood properties data to mine predictors of wood properties
-+ Work with NZ researchers to evaluate potential to rapidly evaluate redwood properties using reflectance properties or automated detection of micro-structural properties from imagery  
++ old biomass dying
++ perception of 'dirty'
++ what scale/technolgy is socailly acceptable? tradefoffs?
 #+END_NOTES
-
-** California forest products industry
- #+ATTR_HTML: :width 100%
- | State | Rough lumber (%) | Surfaced lumber (%) | Total Output (MMBF) | Percent of Region |
- |-------+------------------+---------------------+---------------------+-------------------|
- | CA    |           **34** |                  65 |                1937 |              0.15 |
- | ID    |                3 |                  97 |                1647 |              0.12 |
- | MT    |                4 |                  96 |                 562 |              0.04 |
- | OR    |                5 |                  95 |                5119 |              0.39 |
- | WA    |                4 |                  96 |                3942 |              0.30 |
- #+TBLFM: $5=$4/13.200000000000001;%.2f
-
- #+REVEAL_HTML: <p><small>Source: 1. Western Wood Products Association. 2013 Statistical Yearbook of the Western Wood Products Association. Portland: Western Wood Products Association, 2013.</p></small>
+*** Redwood Properties: NZ vs CA
+  #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
+  #+ATTR_HTML: :height 500
+  [[./images/baldwin.png]]
  #+BEGIN_NOTES
+ + Redwood quality issues with rotation age
+ + Expansion of production in New Zealand
+ #+END_NOTES
+*** Redwood Results
+ + No significant differences between NZ and CA
+ + Regional differences suggest local variables drive wood property differences
+ #+BEGIN_NOTES
+ *Findings*
+ + No significant differences between NZ and CA
+ + Regional differences
+
+ *Next Steps*
+ + Combine high spatial resolution soil, climate, and stand density data with wood properties data to mine predictors of wood properties
+ + Work with NZ researchers to evaluate potential to rapidly evaluate redwood properties using reflectance properties or automated detection of micro-structural properties from imagery  
+ + reach out to industrial to develop a research agenda to inform siviculture that encourages properties that add value (appearance, durability)
+ #+END_NOTES
+
+*** California forest products industry
+  #+ATTR_HTML: :width 100%
+  | State | Rough lumber (%) | Surfaced lumber (%) | Total Output (MMBF) | Percent of Region |
+  |-------+------------------+---------------------+---------------------+-------------------|
+  | CA    |           **34** |                  65 |                1937 |              0.15 |
+  | ID    |                3 |                  97 |                1647 |              0.12 |
+  | MT    |                4 |                  96 |                 562 |              0.04 |
+  | OR    |                5 |                  95 |                5119 |              0.39 |
+  | WA    |                4 |                  96 |                3942 |              0.30 |
+  #+TBLFM: $5=$4/13.200000000000001;%.2f
+
+  #+REVEAL_HTML: <p><small>Source: 1. Western Wood Products Association. 2013 Statistical Yearbook of the Western Wood Products Association. Portland: Western Wood Products Association, 2013.</p></small>
+  #+BEGIN_NOTES
 + Emphasize that CA industry focuses primarily on commodity lumber markets, little value added processing
++ Expanding the range of products and producers
+  #+END_NOTES
+
+*** Product Opportunities
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ #+ATTR_REVEAL: :frag (appear)
+ + Cross-laminated timber
+ + Oriented Strand Board
+ + Hardwoods -- engineered flooring, construction mats, drayage
+ + Small-CHP + wood processing
+ + Niche markets
+
+#+ATTR_REVEAL: <p><small>1. National Forest Foundation. California Assessment of Wood Business Innovation Opportunities and Markets. Davis, California; 2015.</p></small>  
+#+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  #+ATTR_HTML: :height 40%
+  [[./images/products.jpg]] 
+
+ #+REVEAL_HTML: </div>
+ 
+
+ #+BEGIN_NOTES
+ + served on steering committee for recent study by National Forest Foundation
+ + *CLT* Processing capacity is an attractive investment
+ + *OSB* materail supply and demand is clear, does the reduced transport cost offset the increased cost of doing business in California?
+ + *Hardwoods* Still potential, lacking processing expertise. tell Litherland story
+ + *Small Biomass* co-generation at small scales with offsetting high energy costs and selling power under BioMAT
+ + *Niche Markets* Tell the juniper Portland story.
+   + 'local'
+   + marketing
  #+END_NOTES
+** Renewable Energy
+ #+ATTR_REVEAL: :frag (appear)
+ + Fuels
+ + Biomass power
+ + Heating and cooling
+ #+BEGIN_NOTES
 
-** Product Opportunities
-#+ATTR_REVEAL: <p><small>1. National Forest Foundation. California Assessment of Wood Business Innovation Opportunities and Markets. Davis, California; 2015.</p></small> 
+ #+END_NOTES
+** Carbon Cycle of Wood Products 
+ #+ATTR_REVEAL: :frag (appear)
+ + Integrated industrial/forest ecology
+ + Lack of data
+ + Need for science based leadership
 
-#+ATTR_REVEAL: :frag (appear)
-+ Cross-laminated timber
-+ Oriented Strand Board
-+ Hardwoods -- engineered flooring, construction mats, dra
-+ Small-CHP + wood processing
-#+BEGIN_NOTES
-+ served on steering committee for recent study by National Forest Foundation
-+ CLT :: Processing capacity is an attractive investment
-+ Hardwoods :: Still potential, lacking processing expertise
-+ Small Biomass :: co-generation at small scales with offsetting high energy costs and selling power under BioMAT
-#+END_NOTES
-* Renewable Energy
-#+ATTR_REVEAL: :frag (appear)
-+ Fuels
-+ Biomass power
-+ Heating and cooling
-#+BEGIN_NOTES
+** Public Education
+ + Raising public awareness/interest in forests as places of *both* recreation/wilderness *and* livelihood, material production
 
-#+END_NOTES
-* Carbon Cycle of Wood Products 
-#+ATTR_REVEAL: :frag (appear)
-+ Integrated industrial/forest ecology
-+ Lack of data
-+ Need for science based leadership
+*** Smurfs ?!
+ [[./images/smurf.jpg]]
 
-* Public Education
-+ Raising public awareness/interest in forests as places of *both* recreation/wilderness *and* livelihood, material production
-
-** Smurfs ?!
-[[./images/smurf.jpg]]
-
-#+BEGIN_NOTES
-Level of awareness low
-#+END_NOTES
+ #+BEGIN_NOTES
+ Level of awareness low
+ #+END_NOTES
 * Research questions
 #+ATTR_REVEAL:<small>
 #+ATTR_REVEAL: :frag (appear)
@@ -220,8 +250,7 @@ Level of awareness low
    - 
 #+END_NOTES
 
-* Funding and collaboration
-
+** Funding and collaboration
 
 * Extension Priorities
 1. Develop a robust applied research platform with strong collaboration between UC, CA and non-CA groups in collaboration with county Advisers
