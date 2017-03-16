@@ -4,6 +4,7 @@
 #+OPTIONS: author:t date:t email:nil
 #+OPTIONS: num:nil
 #+OPTIONS: toc:1
+#+OPTIONS: timestamp:nil
 #+REVEAL_EXTRA_CSS: extra.css
 #+REVEAL_PLUGINS: (notes)
 * A little about me
@@ -25,19 +26,33 @@
 + Financial model development
 
 ** Academic Coordinator @ UC Biomass Utilization Group (2013-present)
-+ Biomass infrastructure map
++ Biomass infrastructure map/database
 + Life-cycle analysis of roundwood harvest
-
++ Community-based bioenergy workshop series
++ Grants webinar series
++ Policy issues
++ Industry outreach
 ** PostDoc @ UC Davis Energy Institute (2011-2013)
 + Bioenergy systems modeling
 + Hybrid poplar growth modeling
+** UC Davis Dissertation
+ + Individual tree detection and delineation
+ + Geometric shape-fitting
+ + RAndom Sample and Consensus (RANSAC)
+
+ #+REVEAL_HTML: <br><p><small>1. Tittmann P, Shafii S, Hartsough B, Hamman B. Tree detection, delineation, and measurement from LiDAR point clouds using RANSAC. In: Hirata Y et al., editor. Proceedings of Eleventh International Conference on LiDAR Applications for Assessing Forest Ecosystems (SilviLaser 2011) [Internet]. Hobart; 2011.</p></small>
+
+*** RanSAC Model results
+[[./images/lidar_results.png]]
 
 * Forest Products in California: Key issues
+ #+ATTR_REVEAL: :frag (appear)
 + Efficiency and innovation 
 + Renewable energy
 + Carbon cycle of wood products
 + Public education
 #+BEGIN_NOTES
+1. Harvesting and operations
 1. increasing value, efficiency, innovation and employment
 2. fuels, electricity
 3. Life-cycle analysis, displacement/substitution
@@ -180,13 +195,13 @@
  + Oriented Strand Board
  + Hardwoods -- engineered flooring, construction mats, drayage
  + Small-CHP + wood processing
- + Niche markets
+ 
 
 #+ATTR_REVEAL: <p><small>1. National Forest Foundation. California Assessment of Wood Business Innovation Opportunities and Markets. Davis, California; 2015.</p></small>  
 #+REVEAL_HTML: </div>
 
- #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
-  #+ATTR_HTML: :height 40%
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+#+ATTR_HTML: :width 90%
   [[./images/products.jpg]] 
 
  #+REVEAL_HTML: </div>
@@ -198,33 +213,207 @@
  + *OSB* materail supply and demand is clear, does the reduced transport cost offset the increased cost of doing business in California?
  + *Hardwoods* Still potential, lacking processing expertise. tell Litherland story
  + *Small Biomass* co-generation at small scales with offsetting high energy costs and selling power under BioMAT
- + *Niche Markets* Tell the juniper Portland story.
-   + 'local'
-   + marketing
  #+END_NOTES
+
+*** ~pymiata~: Forestry equipment cost calculator
+[[./images/miyata.png]]
+
+*** ~pymiyata~ Example
+#+ATTR_HTML: :width 100% 
+| Manufacturer               | Model              | Initial investment ($) | Salvage Value($) | Economic Life (years) | Scheduled Operating Time (hrs/year) | Productive Time (hrs/year) | Utilization Rate | Use Cost ($/PMH) |
+|----------------------------+--------------------+------------------------+------------------+-----------------------+-------------------------------------+----------------------------+------------------+------------------|
+| Fecon                      | FTX128             |                 200000 |            40000 |                     5 |                                1872 |                    1215.36 |      0.649230769 |        74.318588 |
+| Kaiser                     | S2-2               |                 374000 |            74800 |                     5 |                                1872 |                    1215.36 |      0.649230769 |      115.7630803 |
+| FAE - Prime Tech           | PT-175             |                 255000 |            51000 |                   7.5 |                                1872 |                    1215.36 |      0.649230769 |      76.47029789 |
+| Takeuchi                   | TL12CRH            |                 118056 |          23611.2 |                     8 |                                1872 |                       1248 |      0.666666667 |         44.96581 |
+| Caterpillar                | 299D XHP           |                 144200 |            30000 |                     5 |                                1872 |                    1215.36 |      0.649230769 |       59.3833117 |
+| Takeuchi                   | TB290CL            |                 137949 |          27589.8 |                     8 |                                1872 |                    1215.36 |      0.649230769 |      44.51276035 |
+| John Deere/Fecon           | JD210 with BH80EXC |                 270000 |            54000 |                    20 |                                1872 |                       1560 |      0.833333333 |      60.50512261 |
+| 2000 Timbco Feller Buncher | 425D               |                 505000 |           101000 |                    10 |                                1872 |                       1755 |           0.9375 |      101.0949626 |
+
 ** Renewable Energy
  #+ATTR_REVEAL: :frag (appear)
  + Fuels
  + Biomass power
  + Heating and cooling
  #+BEGIN_NOTES
-
++ increasing demand for low carbon transportation fuel
++ carbon neutrality of biomass power
++ substantial opportunities for co-generation
+  + increases efficiency
+  + makes use of residual
++ existing fleet of biomass power plants on its way out
++ 
  #+END_NOTES
+*** Decline in biomass power in CA Renewables Portfolio Standard
+ #+ATTR_HTML: :width 60% :height 60%
+ [[./images/solar_bio.jpg]]
+*** Mapping biomass supply
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ #+REVEAL_HTML: <br><p><small>Jenkins, B. M., Williams, R., Parker, N., Tittmann, P., Hart, Q., Gildart, M., Dempster, P. (2009). Sustainable use of California biomass resources can help meet state and national bioenergy targets. California Agriculture, 63(4), 168–177. </p></small>
+ #+REVEAL_HTML: </div>
+
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ #+ATTR_HTML: :width 80%
+ [[./images/biomass_map.jpg]]
+ 
+ #+REVEAL_HTML: </div>
+#+BEGIN_NOTES
++ My role
++ >30M tonnes annually on a sustained basis
++ All residuals.
++ Material is a byproduct of primary production system. 
++ Must be disposed of
+#+END_NOTES
+*** Spatial/Technoeconomic Bioenergy Modeling
+ #+ATTR_HTML: :width 100%
+ [[./images/modeled_system.png]]
+*** California
+#+ATTR_HTML: :width 80%
+[[./images/ca_wga_mapsupply.png]]
+*** Biofuel vs. biopower in CA
+#+ATTR_HTML: :height 75%
+[[./images/fuel_competition.png]]
+
+*** Advanced Hardwood Biofuels Northwest
++ Decision support for biorefinery siting
+  + Transportation routing
+  + Poplar growth model
+    + Soils
+    + Climate
+  + Biorefienery cost model (Jet Fuel, Ascetic Acid)
+  + Detailed farm budgets
+  + Crop switching
+#+BEGIN_NOTES
++ Select Eureka
++ 40 km
++ Jet Fuel
++ Select geometry
+#+END_NOTES
+[[http://ahb-dst.org/#map][AHB Decision Support Tool]]
+
+*** Project Technical Assistance
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+*Camptonville Community Partnership*
+#+REVEAL_HTML:<hr><small>
++ 3 MW combined heat and power
++ Assisted with successful grant proposal
++ Assisted with technology due diligence
+#+ATTR_HTML: :width 50%
+[[./images/ccp_logo.gif]]
+
+#+REVEAL_HTML: </small></div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+*IHI Power: Rio Bravo Rocklin*
+#+REVEAL_HTML:<hr><small>
++ 25 MW Biomass Power plant
++ Proposal to compare urban and forest feedstock impact on O&M costs
+[[./images/plant_rocklin.jpg]]
+#+REVEAL_HTML: </small></div>
+
 ** Carbon Cycle of Wood Products 
+  #+REVEAL_HTML: <div class="column" style="float:left; width: 40%">
+#+ATTR_REVEAL: :frag (appear)
++ Integrated industrial/forest ecology
++ Lack of data
++ Need for science based leadership
+  #+REVEAL_HTML: </div>
+
+  #+REVEAL_HTML: <div class="column" style="float:right; width: 60%">
+   #+ATTR_HTML: :width 100%
+  [[./images/la_collage.jpg]]
+  #+REVEAL_HTML: </div>
+
+*** Climate impacts of roundwood harvesting
+  #+REVEAL_HTML: <div class="column" style="float:left; width: 40%">
+  *Research Goals*
+  #+REVEAL_HTML: <p><small>
  #+ATTR_REVEAL: :frag (appear)
- + Integrated industrial/forest ecology
- + Lack of data
- + Need for science based leadership
+  + Estimate Short-Lived Climate Pollutant emissions from pile burning
+  + Estimate GHG emissions from roundwood harvest in California *inclusive of* displacement of alternative building materials. 
 
+  #+REVEAL_HTML: </p></small></div>
+
+  #+REVEAL_HTML: <div class="column" style="float:right; width: 60%">
+
+   #+ATTR_HTML: :width 100%
+  [[./images/wood_fates.png]]
+  #+REVEAL_HTML: </div>
+  #+BEGIN_NOTES
+  + Wildfire is the single largest source of SLCP GWP emissions
+  + CARB SLCP Strategy
+  + Provides a meaningfull basis from whihc to compare lifecycle emssions from biomass power generation using logging residuals to alternative fates
+  #+END_NOTES
+
+*** Analysis Framework
+  #+ATTR_HTML: :width 90%
+ [[./images/flow_chart.png]]
+
+*** Key Findings
+
+ + Range of SLCP emissions estimates
+ + Roundwood harvest results in a *net emissions reduction* compared to no harvest assuming sustained yield forestry and no land conversion.
+ + Critical need for improved data and monitoring:
+   + Emissions :: Black and brown carbon emissions from pile, prescribed and wildfire
+   + Displacement :: Need better understanding of wood and energy use in residential/commercial construction specific to California.
+
+*** Different estimates
+ Divergence between BOE and CARB based estimates
++ Air Resources Board :: Criteria Pollutant Emissions Inventory
+  + *2.5 MMT CO2e*
++ Board of Equalization :: Historical harvest data from timber tax records
+  + *0.57 MMTCO2e*
+#+BEGIN_NOTES
++ CARB estimate includes emissions from pile burning not associated with commercial timber harvest
+#+END_NOTES
+*** Emissions reduction
+ - Wood harvested in California in 2012 resulted in avoided emissions of
+   *2.29 MMTCO2e*
+
+ - Timber harvest producing roundwood including emissions from pile burning of logging residuals results in a net emissions reduction of *1.93 MMTCO2e*
+
+*** Historical emissions reductions from harvest
+ #+ATTR_HTML: :height 70%
+ [[./images/ann_hh_em_reduc.png]]
+#+BEGIN_NOTES
+
+#+END_NOTES
 ** Public Education
- + Raising public awareness/interest in forests as places of *both* recreation/wilderness *and* livelihood, material production
+Raising public awareness/interest in forests as places of 
+#+REVEAL_HTML: <font color="red">
+*both*
+#+REVEAL_HTML:</font>
+recreation/wilderness 
+#+REVEAL_HTML: <font color="red">
+*and*
+#+REVEAL_HTML:</font>
+livelihood, material production
 
-*** Smurfs ?!
- [[./images/smurf.jpg]]
+#+BEGIN_NOTES
+Raising public awareness/interest in forests as places of *both* recreation/wilderness *and* livelihood, material production
+#+END_NOTES
+*** Does it take Smurfs ?!
 
- #+BEGIN_NOTES
- Level of awareness low
- #+END_NOTES
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+#+ATTR_REVEAL: :frag (appear)
++ Can we do better at communicating the role of forests in our lives?
++ What resonates culturally?
+  + Reality TV (Axe Men)
+  + Aesthetics of wood?
+  + Local/sustainable?
+
+   #+REVEAL_HTML: </div>
+
+   #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+    #+ATTR_HTML: :height 40%
+   [[./images/smurf.jpg]]
+
+   #+REVEAL_HTML: </div>
+
+   #+BEGIN_NOTES
+   Level of awareness low
+   #+END_NOTES
 * Research questions
 #+ATTR_REVEAL:<small>
 #+ATTR_REVEAL: :frag (appear)
@@ -247,19 +436,48 @@
      - modular construction
 
 3. What are effective strategies for public education around sustainable forest products?
-   - 
+   - outreach to design and engineering communities
+   - outreach to media?
+   - social media?
+   - outreach to schools (k-university)
 #+END_NOTES
 
 ** Funding and collaboration
+Build on strong existing ties with:
+
++ UC Davis -- Energy Institute
++ Humboldt State University -- Schatz Energy Research Center
+
+Strengthen collaboration on campus with:
+- LBNL
+- Engineering
+- Haas
 
 * Extension Priorities
-1. Develop a robust applied research platform with strong collaboration between UC, CA and non-CA groups in collaboration with county Advisers
-2. Engage actively in public discourse relevant to forest products, climate change, and forest sustainability
-   - Social media
-   - Workshops/fora
-   - Policy initiatives
-   - Provide comment on agency initiatives
-3. Provide technical assistance to forest products and bioenergy sector
-   - Close collaboration with county advisors
+1. Robust applied research program
+2. Close collaboration with UCANR Specialist/Adviser network
+3. Engage actively in public discourse and policy development
+4. Technical assistance
+5. Diversity and inclusiveness
+
+#+BEGIN_NOTES
+*Applied Research* 
    - Align research with barrier issues identified through outreach
+
+*Outreach*
+   - Maintain open channel of communication between program and agencies/legislators
+   - Develop a strong social media platform
+   - Engage media
+   - Engage advocacy community where there is common ground.
+   - Grow interest in California wood and forest products in urban communities through outreach to design community.
+
+*TA*
+   - Close collaboration with county advisors
    - Provide review and guidance on proposal
+
+*Diversity and inclusiveness*
+   + Engage immigrant and non-white community client base in the forestry sector through bilingual publication and workshop materials
+
+#+END_NOTES
+
+* Thank you
