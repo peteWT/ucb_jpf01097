@@ -7,7 +7,7 @@
 #+OPTIONS: timestamp:nil
 #+REVEAL_EXTRA_CSS: extra.css
 #+REVEAL_PLUGINS: (notes)
-* A little about me
+* About me
 #+ATTR_HTML: :width 60% :height 60%
 [[./images/salmoncreek.jpg]]
 #+BEGIN_NOTES
@@ -32,7 +32,7 @@
 + Grants webinar series
 + Policy issues
 + Industry outreach
-** PostDoc @ UC Davis Energy Institute (2011-2013)
+** Post-Doc @ UC Davis Energy Institute (2011-2013)
 + Bioenergy systems modeling
 + Hybrid poplar growth modeling
 ** UC Davis Dissertation
@@ -45,32 +45,20 @@
 *** RanSAC Model results
 [[./images/lidar_results.png]]
 
-* Forest Products in California: Key issues
- #+ATTR_REVEAL: :frag (appear)
+* Forest Products in California: Key Issues
 + Efficiency and innovation 
 + Renewable energy
 + Carbon cycle of wood products
 + Public education
-#+BEGIN_NOTES
-1. Harvesting and operations
-1. increasing value, efficiency, innovation and employment
-2. fuels, electricity
-3. Life-cycle analysis, displacement/substitution
-4. Communicating nuance in the public dialog around forests and forest management
-#+END_NOTES
+
 ** Efficiency and innovation
- #+ATTR_REVEAL: :frag (appear)
- + Infrastructure
- + Products
- + Supply chains
- + Livelihood
  #+BEGIN_NOTES
- + Critical to economies of scale
+ + Economies of scale
  + Forest health at scale
  + Infrastructure investment in the state has focused primarily on commodity lumber markets
  + Biomass  infrastructure is old with backlog of differed maintenance
  + Very little private capital going to 'boutique biomass'
- + Low-carbon biofuel demand largely exported to brazil 
+ + Low-carbon biofuel demand largely exported to Brazil 
  #+END_NOTES
 
 *** Utilization of biomass from tree mortality
@@ -93,13 +81,13 @@
   #+END_NOTES
 *** Mapping Mortality
  #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
-  #+ATTR_HTML: :height 40%
+  #+ATTR_HTML: :width 90% 
   [[./images/carmen_map.jpg]]
 
  #+REVEAL_HTML: </div>
 
  #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
-  #+ATTR_HTML: :height 40%
+  #+ATTR_HTML: :width 90%
   [[./images/statewide_BM.jpg]] 
 
  #+REVEAL_HTML: </div>
@@ -133,11 +121,11 @@
 *** Cluster-level supply curve
  #+ATTR_HTML: :width  70%
  [[./images/supply_cluster.png]]
-*** Infrastrucutre and Ecological Processes
+*** Infrastructure and Ecological Processes
 #+ATTR_HTML: :width 60% :height 60%
 [[./images/mortality_collage.jpg]]
 #+BEGIN_NOTES
-+ Infrastrucutre for stochastic processes
++ Infrastructure for stochastic processes
 + How to capture utility?
 + What are costs and benefits of scale choices?
 #+END_NOTES
@@ -147,7 +135,7 @@
 #+BEGIN_NOTES
 + old biomass dying
 + perception of 'dirty'
-+ what scale/technolgy is socailly acceptable? tradefoffs?
++ what scale/technology is socially acceptable? tradeoffs?
 #+END_NOTES
 *** Redwood Properties: NZ vs CA
   #+REVEAL_HTML: <p><small>Calculate Modulus of Elasticity (MOE) and modulus of Rupture (MOR) for redwood samples from New Zealand and California</small></p>
@@ -202,20 +190,20 @@
 
 #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
 #+ATTR_HTML: :width 90%
-  [[./images/products.jpg]] 
+[[./images/products.jpg]] 
 
  #+REVEAL_HTML: </div>
  
 
  #+BEGIN_NOTES
  + served on steering committee for recent study by National Forest Foundation
- + *CLT* Processing capacity is an attractive investment
- + *OSB* materail supply and demand is clear, does the reduced transport cost offset the increased cost of doing business in California?
+ + *CLT* Processing capacity is an attractive investment, need to demonstrate market
+ + *OSB* material supply and demand is clear, does the reduced transport cost offset the increased cost of doing business in California?
  + *Hardwoods* Still potential, lacking processing expertise. tell Litherland story
  + *Small Biomass* co-generation at small scales with offsetting high energy costs and selling power under BioMAT
  #+END_NOTES
 
-*** ~pymiata~: Forestry equipment cost calculator
+*** ~pymiyata~: Forestry equipment cost calculator
 [[./images/miyata.png]]
 
 *** ~pymiyata~ Example
@@ -245,7 +233,7 @@
 + existing fleet of biomass power plants on its way out
 + 
  #+END_NOTES
-*** Decline in biomass power in CA Renewables Portfolio Standard
+*** Decline in biomass power in CA Renewable Portfolio Standard
  #+ATTR_HTML: :width 60% :height 60%
  [[./images/solar_bio.jpg]]
 *** Mapping biomass supply
@@ -260,12 +248,12 @@
  #+REVEAL_HTML: </div>
 #+BEGIN_NOTES
 + My role
-+ >30M tonnes annually on a sustained basis
++ >30M tones annually on a sustained basis
 + All residuals.
 + Material is a byproduct of primary production system. 
 + Must be disposed of
 #+END_NOTES
-*** Spatial/Technoeconomic Bioenergy Modeling
+*** Spatial/Techno-economic Bioenergy Modeling
  #+ATTR_HTML: :width 100%
  [[./images/modeled_system.png]]
 *** California
@@ -276,12 +264,12 @@
 [[./images/fuel_competition.png]]
 
 *** Advanced Hardwood Biofuels Northwest
-+ Decision support for biorefinery siting
++ Decision support for bio-refinery siting
   + Transportation routing
   + Poplar growth model
     + Soils
     + Climate
-  + Biorefienery cost model (Jet Fuel, Ascetic Acid)
+  + Bio-refinery cost model (Jet Fuel, Ascetic Acid)
   + Detailed farm budgets
   + Crop switching
 #+BEGIN_NOTES
@@ -343,7 +331,7 @@
   #+BEGIN_NOTES
   + Wildfire is the single largest source of SLCP GWP emissions
   + CARB SLCP Strategy
-  + Provides a meaningfull basis from whihc to compare lifecycle emssions from biomass power generation using logging residuals to alternative fates
+  + Provides a meaningful basis from which to compare life-cycle emissions from biomass power generation using logging residuals to alternative fates
   #+END_NOTES
 
 *** Analysis Framework
@@ -351,13 +339,14 @@
  [[./images/flow_chart.png]]
 
 *** Key Findings
-
+#+ATTR_REVEAL:<small>
+#+ATTR_REVEAL: :frag (appear)
  + Range of SLCP emissions estimates
  + Roundwood harvest results in a *net emissions reduction* compared to no harvest assuming sustained yield forestry and no land conversion.
  + Critical need for improved data and monitoring:
    + Emissions :: Black and brown carbon emissions from pile, prescribed and wildfire
    + Displacement :: Need better understanding of wood and energy use in residential/commercial construction specific to California.
-
+#+ATTR_REVEAL:</small>
 *** Different estimates
  Divergence between BOE and CARB based estimates
 + Air Resources Board :: Criteria Pollutant Emissions Inventory
@@ -368,13 +357,13 @@
 + CARB estimate includes emissions from pile burning not associated with commercial timber harvest
 #+END_NOTES
 *** Emissions reduction
+#+ATTR_REVEAL: :frag (appear)
  - Wood harvested in California in 2012 resulted in avoided emissions of
-   *2.29 MMTCO2e*
-
+   *2.29 MMTCO2e* 
  - Timber harvest producing roundwood including emissions from pile burning of logging residuals results in a net emissions reduction of *1.93 MMTCO2e*
 
 *** Historical emissions reductions from harvest
- #+ATTR_HTML: :height 70%
+ #+ATTR_HTML: :height 60%
  [[./images/ann_hh_em_reduc.png]]
 #+BEGIN_NOTES
 
@@ -414,7 +403,7 @@ Raising public awareness/interest in forests as places of *both* recreation/wild
    #+BEGIN_NOTES
    Level of awareness low
    #+END_NOTES
-* Research questions
+* Research Questions
 #+ATTR_REVEAL:<small>
 #+ATTR_REVEAL: :frag (appear)
 1. What forest product utilization strategies minimize climate pollution and public health impacts?
@@ -431,7 +420,7 @@ Raising public awareness/interest in forests as places of *both* recreation/wild
 
 2. Can innovation in the forest product sector improve our ability to efficiently and sustainably?
    - Does the benefit of investing in maintenance of un-utilized capacity in the forest products sector return meaningful climate benefits?
-   - opportunties to expand the applications for sustainably harvested wood products?
+   - opportunities to expand the applications for sustainably harvested wood products?
      - prefabricated buildings
      - modular construction
 
